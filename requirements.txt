@@ -1,0 +1,18 @@
+# ==============================================================================
+# RX 7600 XT (gfx1102) ROCm 빌드 - TheRock 커뮤니티 저장소 사용
+# 설치 명령어:
+# pip install --index-url https://d2awnip2yjpvqn.cloudfront.net/v2/gfx110X-dgpu/ torch torchvision torchaudio
+#
+# ⚠️ 공식 PyTorch ROCm 빌드는 gfx1102 커널이 없으므로 TheRock 빌드 필수
+# ==============================================================================
+
+diffusers>=0.30.0
+transformers
+accelerate
+gradio
+imageio
+imageio-ffmpeg
+torch
+torchvision
+torchaudio
+python-dotenv
